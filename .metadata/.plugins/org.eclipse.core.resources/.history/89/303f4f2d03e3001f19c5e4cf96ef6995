@@ -1,0 +1,13 @@
+package Fortuna;
+
+import javax.swing.JFrame;
+
+public class Fortuna {
+	    public static void main(String[] args) {
+	        JFrame ventana = new JFrame("Mi primera GUI");
+	        ventana.setSize(400, 300); 
+	        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	        ventana.setVisible(true);
+	    }
+
+}
